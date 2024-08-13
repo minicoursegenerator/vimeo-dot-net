@@ -21,7 +21,7 @@ namespace VimeoDotNet.Models
         /// </summary>
         [PublicAPI]
         [JsonProperty(PropertyName = "interactions")]
-        public UserInteractions Interactions { get; set; }
+        public UserInteractions[] Interactions { get; set; }
 
         /// <summary>
         /// Follower
